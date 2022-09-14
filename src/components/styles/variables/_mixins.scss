@@ -1,0 +1,18 @@
+@mixin buttonfire {
+    padding: 15px 30px;
+    background: transparent;
+    border:  3px solid $main-button-fire;
+    border-radius: 12rem;
+
+    cursor: pointer;
+}
+
+@mixin hoveredbutton {
+    background: $main-button-fire;
+}
+
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+}
